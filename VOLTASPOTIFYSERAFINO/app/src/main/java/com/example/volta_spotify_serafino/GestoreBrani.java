@@ -9,7 +9,16 @@ public class GestoreBrani {
     {
         ListaBrani = new ArrayList<Brano>();
     }
-    public void addbrani()
+    //instanziare un oggetto di tipo brano, a partire da dei dati, aggiungerlo all'arraylist
+    //visualizzatrackilst : restituisce una stringa tutti di i brani concatenati
+
+    public void addbrano(String titolo)
+    {
+        Brano b = new Brano(titolo);
+        ListaBrani.add(b);
+    }
+
+    public void visualiztrackilist()
     {
 
     }
