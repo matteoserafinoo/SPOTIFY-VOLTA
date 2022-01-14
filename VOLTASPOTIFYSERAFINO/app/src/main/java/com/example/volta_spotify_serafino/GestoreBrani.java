@@ -20,6 +20,10 @@ public class GestoreBrani {
 
     public void visualiztrackilist()
     {
-
+        StringBuilder stBui = new StringBuilder();
+        for (Brano brv : ListaBrani)
+        {
+            stBui.append(brv.toString());
+        }
     }
 }
